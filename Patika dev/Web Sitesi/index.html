@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Samurai</title>
   </head>
   <body class="bg-secondary">
@@ -33,33 +33,29 @@
             </div>
           </nav>
     </nav><!-- NAVBAR END -->
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"><!-- CAROUSEL START -->
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-innerd-flex">
-          <div class="carousel-item active">
-            <img src="image/t1.png" class="d-flex jusify-content-center size" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="image/t2.png" class="d-flex jusify-content-center d-block " alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="image/t3.png" class="d-flex jusify-content-center d-block " alt="...">
-          </div>
+    
+    
+    <div  id="carouselExampleControls" class=" carousel slide" data-ride="carousel"><!-- Carusel Start -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class=" container d-flex justify-content-center align-content-center d-block  w-50" src="image/t1.png" alt="First slide">
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div><!-- CAROUSEL END -->
+        <div class="carousel-item">
+          <img class="container d-flex justify-content-center align-content-center d-block  w-50" src="image/t2.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="container d-flex  justify-content-center,align-content-center d-block  w-50" src="image/t3.png" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div> <!-- Carousel End -->
 
       <div class="main">
         <article>
@@ -67,6 +63,7 @@
             <div class="col-sm-6"></div>
         </article>
       </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
