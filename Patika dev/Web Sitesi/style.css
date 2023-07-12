@@ -1,3 +1,35 @@
-.container {
-    display: flex; /* or inline-flex */
-  }
+.d-flex {
+  display: flex; /* or inline-flex */
+}
+.flexx-justify-center
+{
+  display: flex;
+  justify-content: center;
+}
+.text-over-image
+{
+  background-image: url(image/hakkimda.png);
+  background-size: 100%;
+}
+/* 
+
+            FLEX ORNEK
+
+<div class="main container">
+            <div class="row d-flex flex-column ">
+              <div class="d-flex">
+                <img src="image/hakkimda.png" alt="">
+              </div>
+              <div class="d-flex col-sm-6">
+                  Merhaba, ben Taha Yasir. Lakabım "Samurai".
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-8">
+
+              </div>
+              <div class="col-sm-4">
+            
+              </div>
+            </div>
+          </div>     */

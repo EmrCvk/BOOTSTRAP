@@ -10,53 +10,68 @@
     <link rel="stylesheet" href="style.css">
     <title>Samurai</title>
   </head>
-  <body class="bg-secondary">
+  <body class="bg-dark">
     <!-- NAVBAR START -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Samurai</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="container navbar-nav">
-            <a class="d-flex nav-link active" href="index.html">Ana Sayfa <span class="sr-only">(current)</span></a>
-            <a class="d-flex nav-item nav-link" href="about-me.html">Hakkımda</a>
-            <a class="d-flex nav-item nav-link" href="portfolio.html">Portfolyo</a>
-            <a class="d-flex nav-item nav-link" href="contact.html">Iletişim</a>
-          </div>
-        </div>
-      </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand container d-flex" href="index.html"><img src="image/logox.png" alt="logo"></a>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link disabled" style="visibility: hidden;" href="#">****** <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-me.html">Hakkımda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolyo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Iletişim</a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
     <!-- NAVBAR END -->
     
     
     <div  id="carouselExampleControls" class=" carousel slide" data-ride="carousel"><!-- Carusel Start -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class=" container d-flex justify-content-center align-content-center d-block  w-75" src="image/t1.png" alt="First slide">
+      <div style="background-color: black;" class="col-sm-12 carousel-inner container d-flex  flex-">
+        
+        <div class="col-sm-6 active ">
+          <img class="  d-flex  d-block  w-100" src="image/hakkimda.png" alt="First slide">
+          
         </div>
-        <div class="carousel-item">
-          <img class="container d-flex justify-content-center align-content-center d-block  w-75" src="image/t2.png" alt="Second slide">
+        <div class="col-sm-2 active d-flex  align-items-center justify-content-center align-content-between flex-wrap flex-column  ">
+          <p style="font-weight: bolder;font-size:xx-large;" class="text-secondary   ">TAHA</p>
+          <p style="font-weight: bolder;font-size:xx-large;" class="text-secondary   ">YASIR</p>
+          <p style="font-weight: bolder;font-size:xx-large;" class="text-secondary    ">"SAMURAI"</p>
+          
         </div>
-        <div class="carousel-item">
-          <img class="container d-flex  justify-content-center,align-content-center d-block  w-75" src="image/t3.png" alt="Third slide">
+        <div class="col-sm-4 active d-flex justify-content-center align-items-center ">
+          <p class="text-light">Merhaba, ben Taha Yasir. Lakabım 'Samurai'. Profesyonel olarak kickbox sporunu yapıyorum.
+            Hakkımda daha fazla bilgiye ulaşabilmek için aşağıdaki butona tıklayabilirsiniz.
+          </p>
+          
         </div>
+      
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <a class="carousel-control-prev " style="visibility: hidden;" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <a class="carousel-control-next"style="visibility: hidden; href="#carouselExampleControls" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
     </div> <!-- Carousel End -->
 
-      <div class="main">
-        <article>
-            <div class="col-sm-6"></div>
-            <div class="col-sm-6"></div>
-        </article>
-      </div>
+         
+      
 
 
     <!-- Optional JavaScript -->
