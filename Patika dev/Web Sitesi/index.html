@@ -8,19 +8,26 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Samurai</title>
+    <link rel="ICON" href="image/logox.png" type="image/ico" />
+    <title>Taha Yasir</title>
   </head>
   <body class="bg-dark">
     <!-- NAVBAR START -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class=" navbar navbar-expand-lg navbar-dark bg-dark">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand container d-flex" href="index.html"><img src="image/logox.png" alt="logo"></a>
-    
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
+      <div class="d-flex justify-content-start col-sm-6 col-md-6 col-lg-6">
+        <a class="navbar-brand d-flex justify-content-start ml-5" href="index.html">
+          <img src="image/logox.png" alt="logo">
+        </a>
+        <p class=" d-flex align-items-center mt-1 mb-1" style="color:lightgrey;font-weight: bold; font-size: larger;">
+          Taha Yasir
+        </p>
+      </div>
+      <div class="collapse navbar-collapse col-sm-6 col-md-6 col-lg-6 d-flex justify-content-end  " id="navbarTogglerDemo03">
+        <ul class="navbar-nav">
+          <li class="nav-item active ">
             <a class="nav-link disabled" style="visibility: hidden;" href="#">****** <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
@@ -29,9 +36,7 @@
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">Portfolyo</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Iletişim</a>
-          </li>
+          
         </ul>
         
       </div>
@@ -40,24 +45,37 @@
     
     
     <div  id="carouselExampleControls" class=" carousel slide" data-ride="carousel"><!-- Carusel Start -->
-      <div style="background-color: black;" class="col-sm-12 carousel-inner container d-flex  flex-">
-        
-        <div class="col-sm-6 active ">
+      <div style="background-color: black;" class="col-sm-12 carousel-inner container d-flex ">
+       
+        <div class="col-sm-6 active mr-2">
           <img class="  d-flex  d-block  w-100" src="image/hakkimda.png" alt="First slide">
           
         </div>
-        <div class="col-sm-2 active d-flex  align-items-center justify-content-center align-content-between flex-wrap flex-column  ">
-          <p style="font-weight: bolder;font-size:xx-large;" class="text-secondary   ">TAHA</p>
-          <p style="font-weight: bolder;font-size:xx-large;" class="text-secondary   ">YASIR</p>
-          <p style="font-weight: bolder;font-size:xx-large;" class="text-secondary    ">"SAMURAI"</p>
+        <div> <!-- col2 -->
+        <div class="row mt-5 ml-3"> 
+        <div class="col-sm-6 active d-flex  align-items-center justify-content-center align-content-between flex-wrap flex-column  ">
+          <p style="font-weight: bolder;font-size:100px;" class="text-secondary   ">TAHA</p>
+          <p style="font-weight: bolder;font-size:100px;" class="text-secondary   ">YASIR</p>
+          <p style="font-weight: bolder;font-size:125px;" class="text-secondary    ">"SAMURAI"</p>
           
-        </div>
-        <div class="col-sm-4 active d-flex justify-content-center align-items-center ">
-          <p class="text-light">Merhaba, ben Taha Yasir. Lakabım 'Samurai'. Profesyonel olarak kickbox sporunu yapıyorum.
+        </div>  
+      </div>
+
+      <div class="row mt-5 mr-3 ml-3 d-flex justify-content-start align-items-end ">
+        <div class="col-sm-12 active ml-3 mr-3 mt-5 ">
+          <p class="text-light  ">Merhaba, ben Taha Yasir. Lakabım 'Samurai'. Profesyonel olarak kickbox yapıyorum.
             Hakkımda daha fazla bilgiye ulaşabilmek için aşağıdaki butona tıklayabilirsiniz.
           </p>
-          
+
+          <a href="about-me.html">
+          <button type="button" class="btn btn-secondary d-flex align-items-center text-light">Buraya tıklayın
+            
+          </button>
+        </a>
+
         </div>
+      </div>
+      </div>  
       
       </div>
       <a class="carousel-control-prev " style="visibility: hidden;" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -69,6 +87,22 @@
         <span class="sr-only">Next</span>
       </a>
     </div> <!-- Carousel End -->
+
+
+    <footer class="bg-dark footer d-flex text-light justify-content-start" style="padding-top: 15px;padding-bottom: 15px;" >
+      <div class="row">
+      <p class="ml-5">ILETISIM</p>  
+    </div>
+    <div class="row d-flex justify-content-around">
+      <a class="d-flex col-md-6 mb-0 flex-direction-row " href="tel:+905358916022">0 (535) 891 6022</a>
+      
+      <a class="d-flex ml-5 col-md-6 mb-0 " href="mailto:tyasir978@gmail.com">tyasir978@gmail.com</a>
+    </p></div>
+    <div class="row d-flex">
+      <p style="text-decoration: none;" class="">
+        <a class=" flex-wrap justify-content-end"  href="index.html">Back to top</a>
+      </p></div>
+    </footer>
 
          
       

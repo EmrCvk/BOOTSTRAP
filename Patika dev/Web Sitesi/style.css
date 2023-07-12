@@ -10,7 +10,45 @@
 {
   background-image: url(image/hakkimda.png);
   background-size: 100%;
+  
 }
+.border
+{
+  border-width: 10px;
+  border-color: lightgrey;
+border-radius: 5px;
+}
+.ortala
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.margin-5
+{
+  margin-left: 5;
+  margin-top: 5;
+  margin-bottom: 5;
+  margin-right: 5;
+}
+#kutu
+{
+  
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+    
+}
+
+
+
+
+
+
+
 /* 
 
             FLEX ORNEK
